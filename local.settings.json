@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    //  "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=fnappvta035;AccountKey=HApIrSbCEBWCWQVnvcUXfrNvbzIwwUzIZH3lUkQeQI5uOqv7QGmGrf4L/aPYnSw2PqbHdEjxsY16Bx78mbyXQw==;EndpointSuffix=core.windows.net",
+
+    // "AzureWebJobsStorage":"DefaultEndpointsProtocol=https;AccountName=fnappvta035;AccountKey=m62QQEXBiRTjRbb5rVMGFX/6ZB53eUhQDSlv2f8F4SFQ7WmciKXMbY5xTZk5xWWeTs9yyNDAROkC/7PKJA0zUQ==;EndpointSuffix=core.windows.net",
+    "AzureWebJobsDashboard": "UseDevelopmentStorage=true",
+
+    "FUNCTIONS_EXTENSION_VERSION": "beta" // In Azure ~2
+
+  },
+  "Host": {
+    "CORS" :  "*" // Does not work in AZURE, see app settings
+  }
+}
